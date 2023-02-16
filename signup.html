@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body{
+            background-image: url("./img/02.jpg");
+            background: linear-gradient(45deg,rgb(0, 0, 0),rgb(71, 2, 2),red);
+            width: fit-content;
+            margin: 150px 0 0 600px;
+            padding: 20px;
+            height: 1000px;
+        }
+        fieldset{
+            border: 2px solid black;
+            text-align: center;
+            box-shadow: 0 5px 20px black;
+            border-radius: 30px;
+
+        }
+        legend{
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .signin{
+            padding: 5px;
+            border-radius: 30px;
+            margin: 5px;
+        }
+        #btn1{
+            background-color: beige;
+            color: black;;
+            border: none;
+            box-shadow: 0 5px 15px rgb(1, 96, 140);
+            padding: 5px;
+            width: 50px;
+            font-size: 10px;
+            border-radius: 30px;
+            transition: all 0.5s ease;
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+<form action="" class="animate__animated animate__wobble">
+    <fieldset>
+        <legend>Sign-up</legend>
+        <table>
+            <tr>
+                <td><input type="text" class="signin" placeholder="First name"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="signin" placeholder="last Name"></td>
+            </tr>
+            <tr>
+                <td><input type="mail" class="signin" placeholder="123@mail.com"></td>
+            </tr>
+            <tr>
+                <td><input type="tel" class="signin" placeholder="+91XXXXXXXXXX"></td>
+            </tr>
+            <tr>
+                <td><input type="date" class="signin"></td>
+            </tr>
+            <tr>
+                <td><input type="radio" class="signin" name="gender">Male
+                    <input type="radio" class="signin" name="gender">Female
+                    <input type="radio" class="signin" name="gender">others
+                </td>
+            </tr>
+            <tr>
+                <td><input type="password" class="signin" placeholder="P@ssW0rd"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="signin" placeholder="confirm-password"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="btn1"><a href="./interface.html" id="signup">Sign-up</a></button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

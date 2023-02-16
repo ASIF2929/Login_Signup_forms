@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body{
+            background-image: url("./img/03.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width: fit-content;
+            margin: 150px 0 0 530px;
+            padding: 20px;
+            text-align: center;
+        }
+        .login{
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+           
+        }
+        fieldset{
+            background: linear-gradient(90deg,rgb(228, 16, 189),rgb(241, 217, 34));
+            padding: 20px;
+            margin: 30px;
+            border-radius: 20px;
+
+        }
+        .btn{
+            background: linear-gradient(45deg,rgb(241,217,34),rgb(228,16,189));
+            color: rgb(0, 0, 0);
+            margin: 5px;
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+        #lg{
+            background: linear-gradient(45deg,rgb(247, 231, 106),rgb(252, 5, 207));
+            color: rgb(0, 0, 0);
+            margin: 5px;
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+        #txt{
+            font-weight: bold;
+            text-decoration: wavy;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+<form action="" class="animate__animated animate__bounceInLeft">
+    <fieldset>
+        <div id="txt">
+            Login Form
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <input type="text" class="login" placeholder="Email or Username">
+                </td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <input type="password" class="login" placeholder="Password">
+                </td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <input type="submit" value="Login" id="lg">
+                </td>
+            </tr>
+        </div>
+        <div>Or login with</div>
+        <div><input type="submit" value="Facebook" class="btn"><input type="submit" value="Google" class="btn"></div>
+        <div>Not a member! <a href="./signup.html">click here</a> for Registration</div>
+    </fieldset>
+</form>
+</body>
+</html>
